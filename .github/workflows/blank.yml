@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: My first script
+        run: echo This is overwelming and I am tired. Of course I will wake up at bed time!
+
