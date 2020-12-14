@@ -36,6 +36,7 @@ jobs:
       #     echo test, and deploy your project.
 
       - name: My first script
-        run: curl https://pcc.edu
+        run: ls
+        
         
 
