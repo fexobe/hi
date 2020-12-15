@@ -36,7 +36,7 @@ jobs:
       #     echo test, and deploy your project.
 
       - name: My first script
-        run: ls
+        run: ls -l
         
         
 
