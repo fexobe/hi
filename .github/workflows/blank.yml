@@ -44,7 +44,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           # ftp server
-          server: ftp.ninjaelk.net
+          server: srv603.webhostingforstudents.com
           # ftp username
           username: ${{ secrets.FTP_USERNAME }}
           # ftp password
@@ -57,7 +57,7 @@ jobs:
           local-dir: ./
           # Path to upload to on the server. Must end with trailing slash /
           server-dir: ./temp/
-          security: loose
+          # security: loose
 
        
 
