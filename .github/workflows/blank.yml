@@ -48,7 +48,7 @@ jobs:
       - name: Ship it
         uses: mscoutermarsh/cowsays-action@master
         with:
-          text: 'Merry Christmas!'
+          text: 'It's 2021!'
           color: 'red'        
 
                 
