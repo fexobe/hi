@@ -46,7 +46,7 @@ jobs:
       - name: Ship it
         uses: mscoutermarsh/cowsays-action@master
         with:
-          text: "It's 2021!"
+          text: "Hi Cookie"
           color: "red"
 
       # - name: FTP Deploy
