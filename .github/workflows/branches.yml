@@ -46,7 +46,7 @@ jobs:
       - name: Ship it
         uses: mscoutermarsh/cowsays-action@master
         with:
-          text: "this is a branch!"
+          text: "Cookie is a dog!"
           color: "red"
 
       # - name: FTP Deploy
