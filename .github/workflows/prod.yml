@@ -2,13 +2,13 @@
 
 name: My Workflow
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -38,20 +38,17 @@ jobs:
       - name: My first script
         run: ls -l
       - name: My belly button
-        run: sudo apt install cowsay     
-
-
+        run: sudo apt install cowsay
 
       - name: Not my belly button
-        run: cowsay "Eat me!"   
+        run: cowsay "Eat me!"
 
       - name: Ship it
         uses: mscoutermarsh/cowsays-action@master
         with:
-          text: 'Merry Christmas!'
-          color: 'red'        
+          text: "It works!"
+          color: "red"
 
-                
       # - name: FTP Deploy
       #   # You may pin to the exact commit or the version.
       #   # uses: SamKirkland/FTP-Deploy-Action@2a4e9b1312ebeb73a1f72b9330c71831c1e4ce01
@@ -72,6 +69,3 @@ jobs:
       #     # Path to upload to on the server. Must end with trailing slash /
       #     server-dir: ./temp/
       #     # security: loose
-
-       
-
